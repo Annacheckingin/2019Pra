@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  FXDJ
+//
+//  Created by 李正国 on 2019/6/15.
+//  Copyright © 2019 李正国. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "ZSProgressHUD.h"
+#import "YYWebImage.h"
+#import "AFNetworking.h"
+#import "SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+#import "UIView+SDAutoLayout.h"
+#define LZGSCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
+#define LZGSCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define LZGCELLWIDTHSCALE (LZGSCREENWIDTH/375)
+#define LZGCELLHEIGHTSCALE (LZGSCREENHEIGHT/667)
+#define LZGacceptallbtnwidth 100
+#define LZGacceptallbtnheight 30
+#define LZGwhitegapheight 10
+#define LZGacceptbtnoriginX 300
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
